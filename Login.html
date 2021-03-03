@@ -1,0 +1,256 @@
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta lang="PT-BR">
+    <meta name="description" content="site responsivo com API ">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="site responsivo com apo  ">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>VSB TRAVEL</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <script src="https://kit.fontawesome.com/b4557897d6.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Baskervville&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Actor&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="login.css">
+
+
+</head>
+
+
+<body>
+    <nav class="navbar navbar-fix navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+
+            <a class="navbar-brand h1 mb-0" href="#">VSB Travel</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite"> 
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarSite">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="Login.html">Login</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="desenvolvimento.html">Conteudo</a>
+                        <!--<i class="fa fa-phone" aria-hidden="true"></i>-->
+                    </li>
+
+                </ul>
+
+                <ul class="navbar-nav ml-auto">
+
+
+                    <span class="nav-item">
+                                <a class="nav-link" href="#"  data-toggle="modal" data-target="#modalExemplo">
+                                    <i class="fa fa-user-circle" aria-hidden="true"></i> Contato</a>
+                            </span>
+
+
+                    <li class="nav-item dropdown">
+
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      Redes Socias
+                                    </button>
+
+                            <div class="dropdown-menu" aria-labelledby="navDrop">
+                                <a class="dropdown-item" href="https://www.facebook.com/">Facebook</a>
+                                <a class="dropdown-item" href="https://www.linkedin.com/in/viniciosbarbosaa/">Linkedin</a>
+                                <a class="dropdown-item" href="https://www.google.com/">Google</a>
+                            </div>
+
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <script>
+        $(function() {
+            $('[data-toggle="popover"]').popover();
+
+            $('.navbar-brand').on('click', function(e) {
+                e.preventDefault();
+                $('body').toggleClass('contraste');
+            })
+        })
+    </script>
+    <div style="text-align: right;position: fixed;z-index:9999999;bottom: 0;width: auto;right: 1%;cursor: pointer;line-height: 0;display:block !important;">
+        <a title="Hosted on free web hosting 000webhost.com. Host your own website for FREE." target="_blank" href="https://www.000webhost.com/?utm_source=000webhostapp&utm_campaign=000_logo&utm_medium=website&utm_content=footer_img"><img src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png" alt="www.000webhost.com"></a>
+    </div>
+
+
+    <!--Modal Começo-->
+    <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Contato</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+
+                    <section id="contact">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.790249089905!2d-46.69593078538259!3d-23.611854269343183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce574bcfba7f27%3A0x52a8fa01b05344c3!2sIT%20Lean!5e0!3m2!1spt-BR!2sbr!4v1571322659759!5m2!1spt-BR!2sbr"
+                                        width="100%" height="315" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Modal Fim-->
+
+    <div class="container-fluid">
+        <div class="col-sm-12 ">
+            <div class="Login" id="Login">
+                <form class="form-signin">
+
+
+                    <!--Imagem-->
+                    <img class="mb-4 text-center" src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+
+
+                    <!--Paragrafo-->
+                    <h1 class="h3 mb-3 font-weight-normal" style="color: azure;">Por favor insira </h1>
+
+
+                    <!--Primeiro Campo-->
+                    <label for="inputEmail" class="sr-only">Email </label>
+
+
+                    <!--Campo Email-->
+                    <input type="email" id="inputEmail" class="form-control" placeholder="joão.paulo@outlook.com" required autofocus>
+
+
+                    <!--Segundo Campo-->
+                    <label for="inputPassword" class="sr-only">Senha</label>
+
+                    <!--Campo Senha-->
+                    <input type="password" id="inputPassword" class="form-control" placeholder="*********" required>
+
+                    <div class="checkbox mb-3">
+
+                        <!--Salvar Login-->
+                        <label style="color: darkgray !important">
+                    
+                        <input type="checkbox" value="remember-me" >Salvar Login
+                    
+                    </label>
+
+                        <br>
+
+                        <!--Campo Para Cadastro User Inicio-->
+
+                        <!--Data Toggle Significa Abrir Modal-->
+                        <!--Data Target Significa Abrir Qual Modal Ex id modal-teste - data-target="#modal-teste"-->
+
+
+                        <!--Campo Para Cadastro User Fim-->
+                        <a class="cadastro" href="#" data-toggle="modal" data-target="#modal-teste" style="color: azure;">Não Possui a Cadastro ?
+                    
+                         </a>
+                        <!--Campo Para Cadastro User Fim-->
+
+
+                        <!-- Modal grande -->
+                        <div class="modal fade bd-example-modal-lg" id="modal-teste" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+
+                            <div class="modal-dialog modal-lg">
+
+                                <div class="modal-content">
+                                    <div class="container-fluid">
+
+                                        <!--Começo-->
+                                        <h2 class="text-center" id="modalh2">Preencha Seus Dados</h2>
+                                        <hr>
+
+                                        <!--Inicio Formulario-->
+
+                                        <div class="row">
+                                            <div class="col-sm-6 mb-3">
+                                                <input type="text" class="form-control" id="inputnome" placeholder="Nome">
+                                            </div>
+
+                                            <div class="col-sm-6 mb-3">
+                                                <input type="text" class="form-control" id="inputsobrenome" placeholder="Sobrenome">
+                                            </div>
+
+                                            <div class="col-sm-12 mb-4">
+                                                <input type="text" class="form-control" id="inputendereco" placeholder="Endereço/Complemento">
+                                            </div>
+
+
+                                            <div class="col-sm-6 mb-3">
+
+                                                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                                            </div>
+
+                                            <div class="col-sm-6 mb-3">
+                                                <input type="senha" class="form-control" id="inputsenha" placeholder="Senha">
+                                            </div>
+
+                                            <div class="col-sm-6 mb-3">
+                                                <input type="telefone" class="form-control" id="inputtelefone" placeholder="Telefone">
+                                            </div>
+
+                                            <div class="col-sm-6 mb-3">
+                                                <input type="Data de Nascimento " class="form-control" id="inputdtnascimento" placeholder="Data De Nascimento">
+                                            </div>
+
+                                            <div class="col-sm-12 mb-5">
+                                                <button class="btn btn-lg btn-primary btn-block" type="submit">Enviar</button>
+                                            </div>
+                                        </div>
+
+
+                                        <!--Fim Formulario-->
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Botão-->
+                    <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+
+
+                    <p class="mt-5 mb-3 text-muted" id="mt-5">&copy;<strong>2019-2020</strong></p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="index.js"></script>
+
+</html>

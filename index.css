@@ -1,0 +1,323 @@
+body {
+    background: grey;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: whitesmoke !important;
+}
+
+#texto-carroseul {
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+#texto-carroseul .texto {
+    background: rgba(0, 0, 0, .6);
+    border-radius: 20px;
+}
+
+
+/**Inicio Banner1 CSS */
+
+.banner1 {
+    background: url(Style/plant_leaves_green_123729_1280x720_upscaled_image_x4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+#col-12-parte1 {
+    text-align: center;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+#col-12-parte1 h1 {
+    font-family: 'Caveat', cursive;
+}
+
+hr {
+    border-top: 2px solid whitesmoke;
+}
+
+#banner1-col-sm-4-esquerda h3 {
+    color: whitesmoke;
+    font-family: 'Caveat', 'cursive';
+    text-align: center;
+}
+
+#banner1-col-sm-4-esquerda-estrelas {
+    text-align: center;
+    color: gold;
+    margin: 5px
+}
+
+#banner1-col-sm-4-esquerda-Lista {
+    color: whitesmoke;
+    text-align: left;
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
+}
+
+#banner1-col-sm-4-esquerda-preco {
+    text-align: center;
+    color: whitesmoke;
+}
+
+#banner1-col-sm-4-medio h3 {
+    text-align: center;
+    font-family: 'Caveat', 'cursive';
+    color: whitesmoke;
+}
+
+#banner1-col-sm-4-medio-estrelas {
+    text-align: center;
+    color: gold;
+    margin: 3px;
+}
+
+#banner1-col-sm-4-medio-Lista {
+    text-align: left;
+    color: whitesmoke;
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
+}
+
+#banner1-col-sm-4-medio-preco {
+    text-align: center;
+    color: whitesmoke;
+}
+
+#banner1-col-sm-4-direita h3 {
+    text-align: center;
+    font-family: 'Caveat', 'cursive';
+    color: whitesmoke;
+}
+
+#banner1-col-sm-4-direita-estrelas {
+    text-align: center;
+    color: gold;
+    margin: 3px;
+}
+
+#banner1-col-sm-4-direita-Lista {
+    text-align: left;
+    color: whitesmoke;
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
+}
+
+#banner1-col-sm-4-direita-preco {
+    text-align: center;
+    color: whitesmoke;
+}
+
+
+/**Fim Banner1 CSS */
+
+
+/**Inicio Banner2 CSS */
+
+.banner2 {
+    background: url(Style/573386.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+#banner2-col-sm-12 {
+    text-align: center;
+    color: whitesmoke;
+    padding: 20px;
+    font-family: 'Baskervville', serif;
+}
+
+#banner2-col-sm-4-esquerda {
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Baskervville', serif;
+    background: rgba(0, 0, 0, .6);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 7px;
+    position: relative;
+    top: 0px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#banner2-col-sm-4-esquerda-estrelas {
+    color: whitesmoke;
+    margin: 8px;
+}
+
+#banner2-col-sm-2-esquerda-Lista {
+    text-align: left;
+    font-family: 'Cormorant', serif;
+    font-size: 18px;
+}
+
+#banner2-col-sm-4-esquerda-preco {
+    text-align: center;
+    color: whitesmoke;
+    font-family: sans-serif;
+    ;
+}
+
+#banner2-col-sm-4-medio {
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Baskervville', serif;
+    background: rgba(0, 0, 0, .6);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 12px;
+    position: relative;
+    top: 0px;
+}
+
+#banner2-col-sm-4-medio-estrelas {
+    color: whitesmoke;
+    margin: 8px;
+}
+
+#banner2-col-sm-4-medio-Lista {
+    text-align: left;
+    font-family: 'Cormorant', serif;
+    font-size: 18px;
+}
+
+#banner2-col-sm-4-medio-preco {
+    text-align: center;
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+
+#banner2-col-sm-4-direita {
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Baskervville', serif;
+    background: rgba(0, 0, 0, .6);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 7px;
+    position: relative;
+    top: 0px;
+}
+
+#banner2-col-sm-4-direita-estrelas {
+    color: whitesmoke;
+    margin: 8px;
+}
+
+#banner2-col-sm-4-direita-Lista {
+    text-align: left;
+    font-family: 'Cormorant', serif;
+    font-size: 18px;
+}
+
+#banner2-col-sm-4-direita-preco {
+    text-align: center;
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+
+
+/**Fim Banner2 CSS */
+
+
+/*Incio banner 3*/
+
+.banner3 {
+    background: url(Style/254381.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+#banner3-col-sm-12 {
+    text-align: center;
+    font-family: 'Actor', sans-serif;
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+#banner3-col-sm-12 h1 {
+    margin: 10px;
+}
+
+#banner3-col-sm-4-gol-col-sm-12 {
+    background: rgba(0, 0, 0, .6);
+    border-radius: 50px;
+}
+
+#banner3-col-sm-4-latam-col-sm-12 {
+    background: rgba(0, 0, 0, .6);
+    border-radius: 50px;
+}
+
+#banner3-col-sm-4-azul-col-sm-12 {
+    background: rgba(0, 0, 0, .6);
+    border-radius: 50px;
+}
+
+#banner3-col-sm-4-gol-Lista,
+a {
+    text-align: left;
+    color: azure;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#banner3-col-sm-4-latam-Lista,
+a {
+    text-align: left;
+    color: azure;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#banner3-col-sm-4-azul-Lista,
+a {
+    text-align: left;
+    color: azure;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.lista-teste {
+    transform: translateY(-58px);
+}
+
+
+/*Fim Banner3*/
+
+#footer {
+    background: rgb(28, 35, 47);
+    width: auto;
+    color: whitesmoke;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 35px;
+}
